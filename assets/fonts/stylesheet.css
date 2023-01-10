@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Maledpan';
+    src: url('Maledpan-Regular.woff2') format('woff2'),
+        url('Maledpan-Regular.woff') format('woff'),
+        url('Maledpan-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

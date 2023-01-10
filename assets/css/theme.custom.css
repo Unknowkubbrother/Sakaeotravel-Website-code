@@ -1,0 +1,451 @@
+.anime_title {
+    color: #fff;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.75);
+    font-size: 13px;
+    text-align: center;
+    position: absolute;
+    padding: 10px;
+    overflow: hidden;
+    bottom: 0;
+}
+
+.anime_view {
+    position: absolute;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.8);
+    font-size: 10px;
+    float: right;
+    clear: both;
+    padding: 3px 6px;
+    right: 5px;
+    top: 5px;
+    white-space: nowrap;
+    display: block;
+    border-radius: 4px;
+}
+
+.anime_grid {
+    margin-bottom: 30px;
+}
+
+.anime_page {
+    background-color: rgba(0,0,0,0.5);
+    margin: 0px 15px;
+    margin-bottom: 10px;
+}
+.anime_page .pagination > li.active > a {
+    background-color: #770111;
+
+}
+
+.anime_page .pagination > li > a,
+.anime_page .pagination > li > span {
+    background-color: rgba(0,0,0,0.5);
+    border: 1px solid #363636;
+    color: #fff;
+}
+
+.anime_page .pagination > li > a:focus,
+.anime_page .pagination > li > a:hover,
+.anime_page .pagination > li > span:hover,
+.anime_page .pagination > li > span:hover {
+    background-color: #770111;
+    border: 1px solid #770111;
+}
+
+.btn-merlin {
+    background-color: #770111;
+    border-bottom: 3px solid #440009;
+    color: #fff;
+}
+
+.btn-merlin:focus,
+.btn-merlin:hover {
+    background-color: #820000;
+    text-decoration: none;
+    color: #fff;
+}
+.btn-merlin:active {
+    margin-top: 1px;
+    background: #660000;
+    border-bottom: 2px solid #440009;
+}
+
+footer {
+    padding: 20px;
+}
+
+.merlin_header {
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #222;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.merlin_title {
+    font-weight: bold;
+    float: left;
+    margin-right: 5px;
+}
+.stripe_line {
+    height: 11px;
+    border-radius: 4px;
+    margin-top: 5px;
+    overflow: hidden;
+    background-image: url("../img/bg-title.png");
+    background-repeat: repeat;
+}
+
+.category {
+    margin-top: 0px;
+}
+
+.category > a > p > .fa {
+    margin-right: 3px;
+}
+
+.category > a > p {
+    padding: 3px 0px 3px 7px;
+    color: #fff;
+    margin-bottom: 4px;
+    background: rgba(0,0,0,0.5);
+    border-radius: 4px;
+}
+
+.category > a > p:focus,
+.category > a > p:hover {
+    color: #fff;
+    background: #770111;
+}
+
+.merlin_widget {
+    background: rgba(0,0,0,0.5) ;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+/* START EP CSS */
+.merlin_ep {
+    padding: 10px 10px;
+    color: #fff;
+    margin-bottom: 4px;
+    border-radius: 4px;
+    background: #770111;
+    border-bottom: 3px solid rgba(0,0,0,0.3);
+}
+
+.merlin_ep:focus,
+.merlin_ep:hover {
+    background: #820112;
+}
+
+.ep_detail {
+    font-size: 12px;
+    color: rgba(225,225,225,0.7);
+}
+
+/* END EP CSS */
+.bts-popup {
+  background: rgba(0,0,0,0.5);
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  z-index: 50;
+  visibility: hidden;
+  -webkit-transition: opacity 0.3s 0s, visibility 0s 0.3s;
+  -moz-transition: opacity 0.3s 0s, visibility 0s 0.3s;
+  transition: opacity 0.3s 0s, visibility 0s 0.3s;
+}
+.bts-popup.is-visible {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: opacity 0.3s 0s, visibility 0s 0s;
+  -moz-transition: opacity 0.3s 0s, visibility 0s 0s;
+  transition: opacity 0.3s 0s, visibility 0s 0s;
+}
+
+.bts-popup-container {
+  position: relative;
+  width: 90%;
+  max-width: 300px;
+  margin: 4em auto;
+  border-radius: none; 
+  text-align: center;
+}
+.bts-popup-container p {
+    color: white;
+    padding: 10px 40px;
+}
+
+@media only screen and (min-width: 1170px) {
+    .bts-popup-container {
+      margin: 8em auto;
+    }
+  
+    .form_search:hover,
+    .form_search:focus {
+        background: rgba(0,0,0,0.1);
+    }
+
+    .anime_img {
+        width: 100%;
+        height: 255px;
+    }
+    .merlin_banner {
+        width: 728px;
+        margin-bottom: 20px; 
+    }
+}
+
+@media only screen and (min-width: 1199px) {
+    .merlin_ads {
+        position: absolute;
+        top: 95px;
+        left: 255px;
+    }
+    
+    .form_search:hover,
+    .form_search:focus {
+        background: rgba(0,0,0,0.1);
+    }
+    
+    .anime_img_b {
+        width: 100%;
+        height: 325px;
+    }
+    .anime_img {
+        width: 100%;
+        height: 275px;
+    }
+    .merlin_banner {
+        width: 728px;
+        margin-bottom: 20px; 
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .merlin_ads {
+        position: absolute;
+        top: 50px;
+        left: 180px;
+    }
+    
+    .form_search:hover,
+    .form_search:focus {
+        background: rgba(0,0,0,0.1);
+    }
+    
+    .anime_img_b {
+        width: 100%;
+        height: 256px;
+    }
+    .anime_img {
+        width: 100%;
+        height: 215px;
+    }
+    .merlin_banner {
+        width: 100%;
+        margin-bottom: 20px; 
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .merlin_ads {
+        position: absolute;
+        top: 55px;
+        left: 190px;
+    }
+    
+    .form_search:hover,
+    .form_search:focus {
+        background: rgba(0,0,0,0.1);
+    }
+    
+    .anime_img_b {
+        height: 325px;
+    }
+    
+    .anime_img {
+        width: 100%;
+        height: 295px;
+    }
+
+    .widget_b {
+        padding-right: 0;
+    }
+    .merlin_banner {
+        width: 100%;
+        margin-bottom: 20px; 
+    }
+}
+
+@media (max-width: 768px) {
+    .merlin_ads {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        z-index: 1;
+    }
+    
+    .anime_img_b {
+        height: 325px;
+    }
+
+    .anime_img {
+        width: 100%;
+        height: 255px;
+    }
+    
+    .widget_b {
+        padding-right: 0;
+    }
+    .merlin_banner {
+        width: 100%;
+        margin-bottom: 20px; 
+    }
+}
+
+.merlin_ads > .alert {
+    padding: 0;
+}
+
+.merlin-search > .form-control {
+    background: rgba(255,255,255,0.1);
+    border: none;
+    color: #fff;
+}
+
+.smoothscroll-top {
+position:fixed;
+opacity:0;
+visibility:hidden;
+overflow:hidden;
+text-align:center;
+z-index:99;
+background-color:#770009;
+line-height: 44px;
+color:#fff;
+width:44px;
+height:44px;
+right:25px;
+bottom:-25px;
+border-radius:5px;
+transition:all .5s ease-in-out;
+transition-delay:.2s;
+}
+
+.smoothscroll-top:hover {
+background-color:#770000;
+color:#fff;
+transition:all .2s ease-in-out;
+transition-delay:0;
+}
+
+.smoothscroll-top.show {
+visibility:visible;
+cursor:pointer;
+opacity:1;
+bottom:25px;
+}
+
+.smoothscroll-top i.fa {
+line-height:inherit;
+}
+
+.merlin_line {
+    border: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #363636;
+}
+
+.well > h4 {
+    margin-top: 0;
+}
+
+#animeOther {
+    background: #77016E;
+}
+
+
+
+.anime_top_img {
+    height: 60px;
+    width:  60px;
+}
+
+.anime_footer {
+    background: rgba(0,0,0,0.5);
+    padding: 20px;
+}
+
+.anime_grid_x {
+    margin: -5px;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.2);
+    position: relative;
+}
+
+.banner {
+    height:  125px;
+    vertical-align:  middle;
+    display: table-cell;
+}
+
+.top_anime {
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.top_anime:hover,
+.top_anime:focus {
+    background: #770111;
+}
+
+.btn-backup {
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+@media (max-width: 576px) {
+    .mp-banner {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (min-width: 576px) {
+    .mp-banner {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (min-width: 768px) {
+    .mp-banner {
+        width: 728px;
+        height: auto;
+    }
+}
+
+@media (min-width: 992px) {
+    .mp-banner {
+        width: 728px;
+        height: auto;
+    }
+}
+
+.p-0 {
+    padding: 0;
+}
+
+.pd-bn {
+    padding: 1rem 0;
+    
+}
